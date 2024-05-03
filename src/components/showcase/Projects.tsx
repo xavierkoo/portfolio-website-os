@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import software from '../../assets/pictures/projects/software.gif';
 import robot from '../../assets/pictures/projects/robot.gif';
 import printer from '../../assets/resume/printer.gif';
@@ -21,9 +22,10 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
     iconStyle,
 }) => {
     const [, setIsHovering] = useState(false);
+    const navigate = useNavigate();
 
     const handleClick = () => {
-        window.location.href = `/projects/${route}`;
+    navigate(`/projects/${route}`);
     };
 
     const onMouseEnter = () => {
