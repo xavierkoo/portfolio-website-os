@@ -41,10 +41,10 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                 </ul>
                 <div style={styles.i}>
-                    <i className="devicon-typescript-plain colored"></i>
+                    <i className="devicon-typescript-plain colored" title='TypeScript' style={{ margin: '5px' }}></i>
                     <i className='devicon-java-plain colored' title='Java' style={{ margin: '5px' }}></i>
-                    <i className="devicon-spring-original colored"></i>
-                    <i className="devicon-angularjs-plain colored"></i>
+                    <i className="devicon-spring-plain colored" title='Spring' style={{ margin: '5px' }}></i>
+                    <i className="devicon-angularjs-plain colored" title='Angular.js' style={{ margin: '5px' }}></i>
                 </div>
             </div>
             <div style={styles.headerContainer}>

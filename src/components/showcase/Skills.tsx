@@ -21,7 +21,7 @@ const Skills: React.FC<SkillsProps> = (props) => {
                     <i className='devicon-css3-plain colored' title='CSS3' style={{ margin: '5px' }}></i>
                     <i className='devicon-sass-original colored' title='Sass' style={{ margin: '5px' }}></i>
                     <i className='devicon-javascript-plain colored' title='JavaScript' style={{ margin: '5px' }}></i>
-                    <i className="devicon-typescript-plain colored"></i>
+                    <i className="devicon-typescript-plain colored" title='TypeScript' style={{ margin: '5px' }}></i>
                     <i className='devicon-python-plain colored' title='Python' style={{ margin: '5px' }}></i>
                     <i className='devicon-java-plain colored' title='Java' style={{ margin: '5px' }}></i>
                     <i className='devicon-dart-plain colored' title="Dart" style={{ margin: '5px' }}></i>
@@ -31,7 +31,7 @@ const Skills: React.FC<SkillsProps> = (props) => {
                     <i className='devicon-bootstrap-plain colored' title='Bootstrap' style={{ margin: '5px' }}></i>
                     <i className='devicon-react-original colored' title='React.js' style={{ margin: '5px' }}></i>
                     <i className='devicon-vuejs-plain colored' title='Vue.js' style={{ margin: '5px' }}></i>
-                    <i className="devicon-angularjs-plain colored"></i>
+                    <i className="devicon-angularjs-plain colored" title='Angular.js' style={{ margin: '5px' }}></i>
                     <i className='devicon-express-original' title='Express.js' style={{ margin: '5px' }}></i>
                     <i className='devicon-nodejs-plain colored' title='Node.js' style={{ margin: '5px' }}></i>
                     <i className='devicon-electron-original colored' title='Electron.js' style={{ margin: '5px' }}></i>
