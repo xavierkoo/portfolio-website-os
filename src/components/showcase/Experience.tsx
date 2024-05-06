@@ -220,6 +220,24 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <i className="devicon-opencv-plain colored" title="OpenCV" style={{ margin: '5px' }}></i>
                     <i className='devicon-python-plain colored' title='Python' style={{ margin: '5px' }}></i>
                 </div>
+                <div className="text-block">
+                    <h3>Appraisal</h3>
+                    <p>
+                        Xavier has independently completed a real-life facility booking system project for a private hospital, which became live on 20 July 2023. 
+                        The project required him to develop a highly customised booking system, fit for the use of a large organisation, where there are over hundreds of bookings for meetings, 
+                        conferences, events, etc. Xavier had to work within a tight schedule and constantly made changes and improvements to the system based on user feedback. 
+                    </p>
+                    <p>
+                        In addition, he would look into the project even after completion and made bug fixes on his own accord. He has demonstrated a high-degree of independent learning, 
+                        solving multiple problems and challenges on his own. Xavier is eager to learn, and has a positive attitude, not shying away from difficult tasks or tedious work, 
+                        some of which includes manually creating a data set for a car plate recognition system.
+                    </p>
+                    <p>
+                        Xavier learns quickly, and searches for insightful ways to solve problems, 
+                        such as one where he had to link two services together to make the booking system more cohesive and user friendly.Overall, we believe that Xavier would be able to do 
+                        well in any area that he is placed in. He has shown that he can work with minimal guidance and is highly dependable.
+                    </p>
+                </div>
             </div>
         </div>
     );
