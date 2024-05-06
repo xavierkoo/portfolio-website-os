@@ -221,7 +221,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <i className='devicon-python-plain colored' title='Python' style={{ margin: '5px' }}></i>
                 </div>
                 <div className="text-block">
-                    <h3>Appraisal</h3>
+                    <h3>Internship Appraisal</h3>
                     <p>
                         Xavier has independently completed a real-life facility booking system project for a private hospital, which became live on 20 July 2023. 
                         The project required him to develop a highly customised booking system, fit for the use of a large organisation, where there are over hundreds of bookings for meetings, 
@@ -234,7 +234,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </p>
                     <p>
                         Xavier learns quickly, and searches for insightful ways to solve problems, 
-                        such as one where he had to link two services together to make the booking system more cohesive and user friendly.Overall, we believe that Xavier would be able to do 
+                        such as one where he had to link two services together to make the booking system more cohesive and user friendly. Overall, we believe that Xavier would be able to do 
                         well in any area that he is placed in. He has shown that he can work with minimal guidance and is highly dependable.
                     </p>
                 </div>

@@ -39,9 +39,11 @@ const Skills: React.FC<SkillsProps> = (props) => {
                     <i className='devicon-spring-plain colored' title='Spring/Spring Boot' style={{ margin: '5px' }}></i>
                     <i className='devicon-jest-plain colored' title='Jest' style={{ margin: '5px' }}></i>
                     <i className="devicon-opencv-plain colored" title='OpenCV'></i>
-                    <img src={langchain} style={{height: '40px', width: '75px', margin: '5px'}} title='LangChain' alt=""/>
-                    <img src={streamlit} style={{height: '40px', width: '55px', margin: '5px'}} title='StreamLit' alt=""/>
-                    <i className="devicon-fastapi-plain colored" title='FastAPI' style={{ margin: '5px' }}></i>
+                    <div style={styles.i}>
+                        <img src={langchain} style={{height: '40px', width: '75px', margin: '5px'}} title='LangChain' alt=""/>
+                        <img src={streamlit} style={{height: '40px', width: '55px', margin: '5px'}} title='StreamLit' alt=""/>
+                        <i className="devicon-fastapi-plain colored" title='FastAPI' style={{ margin: '5px' }}></i>
+                    </div>
                 </div>
                 <h2>Tools</h2>
                 <div style={styles.i}>
