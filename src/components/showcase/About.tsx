@@ -84,7 +84,7 @@ const About: React.FC<AboutProps> = (props) => {
                         </p>
                         <br />
                         <p>
-                            I also unsurprisingly enjoy video games and also enjoy playing the piano.
+                            I also unsurprisingly enjoy video games and also enjoy playing the piano. I'm also a novice keyboard enthusiast and have built my own custom mechanical keyboard.
                         </p>
                     </div>
                     <div style={styles.verticalImage}>
