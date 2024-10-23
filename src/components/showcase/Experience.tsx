@@ -36,7 +36,19 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                            &lt;Work in Progress&gt;
+                            Engineered software features with Angular, Spring Boot, SQL and Concourse, employing Agile and Test-Driven Development.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Architected an automated testing framework from scratch using JUnit, Mockito and Cypress, leveraging OOP principles and design
+                            patterns for reusable test data objects. Boosted test coverage and reduced deployment time from 3 days to 1 day.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Revamped an inefficient API with Spring Boot by optimizing database interactions and pre-processing the data. This improvement
+                            reduced page load times from over 60 seconds to 11 seconds when processing 2.7 million records, enhancing user experience.
                         </p>
                     </li>
                 </ul>
@@ -45,6 +57,10 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <i className='devicon-java-plain colored' title='Java' style={{ margin: '5px' }}></i>
                     <i className="devicon-spring-plain colored" title='Spring' style={{ margin: '5px' }}></i>
                     <i className="devicon-angularjs-plain colored" title='Angular.js' style={{ margin: '5px' }}></i>
+                    <i className="devicon-dbeaver-plain colored" title='DBeaver' style={{ margin: '5px' }}></i>
+                    <i className="devicon-azuredevops-plain colored" title='Azure Devops' style={{ margin: '5px' }}></i>
+                    <i className="devicon-cypressio-plain colored" title='Cypress.io' style={{ margin: '5px' }}></i>
+                    <i className="devicon-junit-plain colored" title='JUnit' style={{ margin: '5px' }}></i>
                 </div>
             </div>
             <div style={styles.headerContainer}>
