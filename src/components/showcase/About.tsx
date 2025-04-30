@@ -17,7 +17,7 @@ const About: React.FC<AboutProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    An aspiring software engineer passionate about Full Stack Development, 
+                    A software engineer passionate about Full Stack Development, 
                     Artificial Intelligence and Machine Learning.
                 </p>
                 <br />

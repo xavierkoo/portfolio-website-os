@@ -11,7 +11,7 @@ const Home: React.FC<HomeProps> = (props) => {
             <img style={styles.image} src={banner} alt="banner"/>
             <div style={styles.header}>
                 <h1 style={styles.name}>Xavier Koo</h1>
-                <h2>Aspiring Software Engineer</h2>
+                <h2>Software Engineer</h2>
             </div>
             <div style={styles.buttons}>
                 <Link containerStyle={styles.link} to="about" text="ABOUT" />
@@ -25,6 +25,11 @@ const Home: React.FC<HomeProps> = (props) => {
                     containerStyle={styles.link}
                     to="projects"
                     text="PROJECTS & CERTIFICATIONS"
+                />
+                <Link
+                    containerStyle={styles.link}
+                    to="devlog"
+                    text="DEVLOGS"
                 />
                 <Link
                     containerStyle={styles.link}

@@ -1,4 +1,3 @@
-import cypress from "../../assets/pictures/cypress-icon.webp";
 import chromadb from "../../assets/pictures/chromadb.png";
 import langchain from "../../assets/pictures/langchain.png";
 import streamlit from "../../assets/pictures/streamlit.png";
@@ -38,6 +37,7 @@ const Skills: React.FC<SkillsProps> = (props) => {
                     <i className="devicon-flutter-plain colored" title="Flutter" style={{ margin: '5px' }}></i>
                     <i className='devicon-spring-plain colored' title='Spring/Spring Boot' style={{ margin: '5px' }}></i>
                     <i className='devicon-jest-plain colored' title='Jest' style={{ margin: '5px' }}></i>
+                    <i className="devicon-junit-plain colored" title='JUnit' style={{ margin: '5px' }}></i>
                     <i className="devicon-opencv-plain colored" title='OpenCV'></i>
                     <div style={styles.i}>
                         <img src={langchain} style={{height: '40px', width: '75px', margin: '5px'}} title='LangChain' alt=""/>
@@ -50,8 +50,9 @@ const Skills: React.FC<SkillsProps> = (props) => {
                     <i className='devicon-docker-plain colored' title='Docker' style={{ margin: '5px' }}></i>
                     <i className='devicon-git-plain colored' title='Git' style={{ margin: '5px' }}></i>
                     <i className='devicon-github-original' title='GitHub' style={{ margin: '5px' }}></i>
-                    <img src={cypress} style={{height: '40px', width: '40px', margin: '5px'}} title='Cypress' alt=""/>
+                    <i className="devicon-cypressio-plain colored" title='Cypress.io' style={{ margin: '5px' }}></i>
                     <i className="devicon-amazonwebservices-original colored" title='AWS' style={{ margin: '5px' }}></i>
+                    <i className="devicon-azuredevops-plain colored" title='Azure Devops' style={{ margin: '5px' }}></i>
                     <i className="devicon-intellij-plain colored" title='IntelliJ IDEA' style={{ margin: '5px' }}></i>
                     <i className='devicon-eslint-original colored' title="ESLint" style={{ margin: '5px' }}></i>
                     <i className='devicon-heroku-original colored' title='Heroku' style={{ margin: '5px' }}></i>
@@ -62,6 +63,7 @@ const Skills: React.FC<SkillsProps> = (props) => {
                 <div style={styles.i}>
                     <i className='devicon-mongodb-plain colored' title='MongoDB' style={{ margin: '5px' }}></i>
                     <i className='devicon-mysql-plain colored' title='MySQL' style={{ margin: '5px' }}></i>
+                    <i className="devicon-dbeaver-plain colored" title='DBeaver' style={{ margin: '5px' }}></i>
                     <img src={chromadb} style={{height: '40px', width: '55px', margin: '5px'}} title='ChromaDB' alt=""/>
                     <i className="devicon-sqlite-plain colored" title='SQLite' style={{ margin: '5px' }}></i>
                 </div>

@@ -10,6 +10,8 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.40",
     "@types/react-dom": "^17.0.13",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
     "devicon": "^2.16.0",
     "emulators-ui": "^0.73.1",
     "framer-motion": "^6.2.9",
@@ -19,7 +21,8 @@
     "react-ga4": "^2.1.0",
     "react-router": "^6.22.3",
     "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.1",
+    "rss-parser": "^3.13.0",
     "typescript": "^4.6.2",
     "usehooks-ts": "^2.5.1",
     "web-vitals": "^2.1.4"

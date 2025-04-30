@@ -6,6 +6,10 @@ import abm from '../../../assets/pictures/projects/abm/model.mov';
 // @ts-ignore
 import yolo1 from '../../../assets/pictures/projects/yolo/yolo1.gif';
 import yolo2 from '../../../assets/pictures/projects/yolo/yolo2.png';
+import task1 from '../../../assets/pictures/projects/genai/task1.png';
+import task1pic from '../../../assets/pictures/projects/genai/task1pic.png';
+import task2abl from '../../../assets/pictures/projects/genai/task2abl.png';
+import task2pic from '../../../assets/pictures/projects/genai/task2pic.png';
 
 export interface MLAIProjectsProps {}
 
@@ -23,6 +27,123 @@ const MLAIProjects: React.FC<MLAIProjectsProps> = (props) => {
             <br />
             <ResumeDownload />
             <br />
+            <div className="text-block">
+                <h2>CycleGAN for Image-to-Image Translation: Implementation, Optimization & Novel Applications</h2>
+                <br />
+                <p>
+                    Image-to-image translation using Generative Adversarial Networks (GANs) has
+                    witnessed rapid advancements, with CycleGAN emerging as a key framework for
+                    unsupervised domain transfer. This project explores and enhances CycleGAN through
+                    two distinct tasks: (1) photorealistic face-to-cartoon translation and (2) young-to-old facial
+                    age progression. To address limitations in vanilla CycleGAN, such as poor structural
+                    preservation, training instability, and lack of global context, architectural
+                    innovations were introduced, including dual self-attention modules, perceptual VGG-based loss functions,
+                    edge-aware enhancements, and spectral normalization in discriminators. Additionally,
+                    training strategies like warm-up cosine annealing, AMP for mixed-precision training,
+                    and gradient clipping for improved stability were adopted. 
+                </p>
+                <br />
+                <p>
+                    Quantitative and qualitative evaluations
+                    demonstrate significant improvements across both tasks. For Task 1, the enhanced model
+                    achieved lower GMS scores—indicating higher visual realism—compared to the vanilla
+                    CycleGAN, particularly in the Real-to-Cartoon direction. For Task 2, ablation studies
+                    show that the integration of VGG loss and self-attention yields the most visually convincing
+                    and age-accurate transformations, with an average age gap reduction from 20.73 to 7.54.
+                    Experiments validate that these enhancements not only improve visual fidelity but also
+                    align closely with semantic expectations of aging and style translation, pushing the
+                    boundaries of what unsupervised translation frameworks can achieve in facial domains.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <img src={task1} style={styles.video} alt="" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 1:</b> Task 1 Enhanced and Vanilla CycleGAN Model Results
+                        </sub>
+                    </p>
+                </div>
+                <div className="captioned-image">
+                    <img src={task1pic} style={styles.video} alt="" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 2:</b> Task 1 Photorealistic/ Cartoon Domain Comparison
+                        </sub>
+                    </p>
+                </div>
+                <div className="captioned-image">
+                    <img src={task2abl} style={styles.video} alt="" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 3:</b> Task 2 Ablation Comparison
+                        </sub>
+                    </p>
+                </div>
+                <div className="captioned-image">
+                    <img src={task2pic} style={styles.video} alt="" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 4:</b> Task 2 Comparison of Qualitative Results
+                        </sub>
+                    </p>
+                </div>
+                <br /> 
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/xavierkoo/cycleGAN"
+                        >
+                            <p>
+                                <b>[GitHub]</b> - Project Repository
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr style={styles.linebreak}/>
+            <div className="text-block">
+                <h2>Job Recommender and Interview Dialogue System</h2>
+                <br />
+                <p>
+                    This project presents a hybrid dialogue system designed to enhance the job-seeking process by
+                    integrating two core functionalities: a job recommendation system and an interview simulation
+                    bot. The job recommendation system employs Information Retrieval (IR) techniques to analyze
+                    user skills and experiences, delivering personalized job suggestions that align with their profiles.
+                    The interview simulation bot, ASKIMO, uses a rule-based conversational framework to conduct
+                    tailored, role-specific mock interviews, providing users with an adaptive and realistic practice
+                    environment.
+                </p>
+                <br />
+                <p>
+                    Quantitative evaluations demonstrate the system’s effectiveness, with job recommendation
+                    accuracy reaching 82.25% and ASKIMO achieving 66.67%-88.89% question accuracy and
+                    60.2%-75% response accuracy. Qualitative feedback highlights its clarity, engagement, and
+                    relevance, while suggesting enhancements in soft skills coverage and adaptive follow-ups. The
+                    system’s seamless integration of job discovery and interview preparation addresses critical gaps
+                    in traditional tools, offering users a comprehensive and accessible career development platform.
+                    Future iterations aim to incorporate sentiment analysis, emotion recognition, and advanced
+                    dialogue capabilities to further refine user experience and efficacy.
+                </p>
+                <br /> 
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/xavierkoo/askimo"
+                        >
+                            <p>
+                                <b>[GitHub]</b> - Project Repository
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr style={styles.linebreak}/>
             <div className="text-block">
                 <h2>Agent-Based Simulation Approach To Queue Management In Theme Parks</h2>
                 <br />
@@ -68,6 +189,7 @@ const MLAIProjects: React.FC<MLAIProjectsProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            <hr style={styles.linebreak}/>
             <div className="text-block">
                 <h2>License Plate Detection and Recognition</h2>
                 <br />
@@ -114,6 +236,7 @@ const MLAIProjects: React.FC<MLAIProjectsProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            <hr style={styles.linebreak}/>
             <div className="text-block">
                 <h2>Facebook Humans or Robots</h2>
                 <br />
@@ -164,6 +287,13 @@ const styles: StyleSheetCSS = {
     caption: {
         width: '80%',
         marginBottom: '15px',   
+    },
+    linebreak: {
+        width: '100%',
+        height: 2,
+        backgroundColor: 'black',
+        marginTop: 15,
+        marginBottom: 15,
     },
 };
 

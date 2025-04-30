@@ -15,6 +15,8 @@ import formbuilder from '../../../assets/pictures/projects/fms/formbuilder.png';
 import workflowbuilder from '../../../assets/pictures/projects/fms/workflowbuilder.png';
 import greenventure1 from '../../../assets/pictures/projects/greenventure/greenventure1.png';
 import greenventure2 from '../../../assets/pictures/projects/greenventure/greenventure2.png';
+import dashboardUI from '../../../assets/pictures/projects/fyp/dashboardUI.png';
+import fypReport from '../../../assets/pictures/projects/fyp/report.pdf';
 
 export interface SoftwareProjectsProps {}
 
@@ -31,6 +33,53 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
              <br /> 
             <ResumeDownload />
             <br />
+            <div className="text-block">
+                <h2>Cloud-based Automation for Digitalising Funds Disbursement Processes (FYP)</h2>
+                <br />
+                <p>
+                    A comprehensive solution that addresses critical operational
+                    inefficiencies in legal disbursement processing at Anthony Law Corporation (ALC), a law firm
+                    specialising in real estate conveyancing. The existing manual workflow, which consumed
+                    approximately eight hours daily, posed significant challenges in data accuracy, processing speed,
+                    and resource utilisation. Through the implementation of an automated disbursement
+                    management system, the team has achieved substantial improvements in operational efficiency
+                    while maintaining stringent security and compliance requirements.
+                </p>
+                <br/>
+                <p>
+                    The solution's technical architecture combines modern frontend technologies with robust
+                    backend services, implementing three key innovations. First, an enterprise-grade on-premise
+                    deployment ensures data sovereignty and security compliance. Second, an advanced OCR
+                    document processing system successfully handles diverse form formats from five major banks
+                    with 99% accuracy. Third, a sophisticated backup and recovery mechanism enables system
+                    restoration within five minutes, ensuring business continuity.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <img src={dashboardUI} style={{height: '90%', width: '80%'}} alt="PSA Code Sprint 2023" />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 1:</b> Main Dashboard UI
+                        </sub>
+                    </p>
+                </div>
+                <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={fypReport}
+                        >
+                            <p>
+                                <b>[PDF]</b> - Final Year Project Report
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr style={styles.linebreak}/>
             <div className="text-block">
                 <h2>[Champion 🏆] PSA Code Sprint 2023</h2>
                 <br />
@@ -117,6 +166,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            <hr style={styles.linebreak}/>
             <div className="text-block">
                 <h2>Authentication System (Client Project)</h2>
                 <br />
@@ -167,6 +217,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            <hr style={styles.linebreak}/>
             <div className="text-block">
                 <h2>Form Management System (Client Project)</h2>
                 <br />
@@ -250,6 +301,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            <hr style={styles.linebreak}/>
             <div className="text-block">
                 <h2>GreenVenture</h2>
                 <br />
@@ -315,6 +367,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            <hr style={styles.linebreak}/>
             <div className="text-block">
                 <h2>Support Local</h2>
                 <br />
@@ -395,6 +448,13 @@ const styles: StyleSheetCSS = {
     caption: {
         width: '80%',
         marginBottom: '15px',   
+    },
+    linebreak: {
+        width: '100%',
+        height: 2,
+        backgroundColor: 'black',
+        marginTop: 15,
+        marginBottom: 15,
     },
 };
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import ResumeDownload from './ResumeDownload';
-import cypress from "../../assets/pictures/cypress-icon.webp";
 
 export interface ExperienceProps {}
 
@@ -23,16 +22,12 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <div style={styles.headerRow}>
                         <h3>Software Engineer Intern</h3>
                         <b>
-                            <p>May 2024 - Present</p>
+                            <p>May 2024 - Dec 2024</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
-                <p>
-                    Ongoing Internship
-                </p>
-                <br />
                 <ul>
                     <li>
                         <p>
@@ -230,7 +225,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <i className="devicon-nodejs-plain colored" title="Node.js" style={{ margin: '5px' }}></i>
                     <i className="devicon-electron-original colored" title="Electron.js" style={{ margin: '5px' }}></i>
                     <i className="devicon-jest-plain colored" title="Jest" style={{ margin: '5px' }}></i>
-                    <img id='cypress' src={cypress} style={{height: '40px', width: '40px', margin: '5px'}} title='Cypress' alt=''/>
+                    <i className="devicon-cypressio-plain colored" title='Cypress.io' style={{ margin: '5px' }}></i>
                     <i className="devicon-eslint-plain colored" title="ESLint" style={{ margin: '5px' }}></i>
                     <i className="devicon-mongodb-plain colored" title="MongoDB" style={{ margin: '5px' }}></i>
                     <i className="devicon-opencv-plain colored" title="OpenCV" style={{ margin: '5px' }}></i>

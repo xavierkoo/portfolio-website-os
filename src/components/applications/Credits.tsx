@@ -7,11 +7,9 @@ export interface CreditsProps extends WindowAppProps {}
 
 const CREDITS = [
     {
-        title: 'Inspiration',
+        title: 'Henry Heffernan',
         rows: [
-            ['Henry Heffernan', 'Adapted from his original project'],
-            ['Bruno Simon', 'Jesse Zhou'],
-            ['Pink Yellow', 'Vivek Patel'],
+            ['Adapted From:', 'https://github.com/henryjeff/portfolio-website'],
         ],
     },
     {
