@@ -54,8 +54,8 @@ const styles: StyleSheetCSS = {
     },
     header: {
         textAlign: 'center',
-        marginBottom: 64,
-        marginTop: 64,
+        marginBottom: 58,
+        marginTop: 58,
 
         flexDirection: 'column',
         alignItems: 'center',
