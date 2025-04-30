@@ -65,7 +65,8 @@ const styles: StyleSheetCSS = {
         justifyContent: 'space-between',
     },
     image: {
-        width: 800,
+        width: 750,
+        height: 500,
     },
     link: {
         padding: 16,

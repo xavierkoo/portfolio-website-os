@@ -1,5 +1,6 @@
 import ghIcon from '../../assets/pictures/contact-gh.png';
 import inIcon from '../../assets/pictures/contact-in.png';
+import meIcon from '../../assets/pictures/contact-me.png';
 import ResumeDownload from './ResumeDownload';
 
 export interface ContactProps {}
@@ -33,6 +34,10 @@ const Contact: React.FC<ContactProps> = (props) => {
                     <SocialBox
                         icon={inIcon}
                         link={'https://www.linkedin.com/in/xavier-koo/'}
+                    />
+                    <SocialBox
+                        icon={meIcon}
+                        link={'https://medium.com/@xavier2812'}
                     />
                 </div>
             </div>
